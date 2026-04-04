@@ -52,7 +52,7 @@ DocuVerify AI automates the entire document verification pipeline:
 ## ⚙️ Features  
 
 ### 📂 Multi-Format Processing  
-- Supports PDFs, images, scans, and mobile photos  
+- Supports PDFs 
 
 ### 🧠 AI Data Extraction  
 - Tesseract + EasyOCR  
