@@ -77,16 +77,91 @@ DocuVerify AI automates the entire document verification pipeline:
 
 ---
 
-## 🧠 How It Works  
+## 🏗️ System Architecture  
 
-1. Upload Documents  
-2. Preprocessing & Enhancement  
-3. OCR + Data Extraction  
-4. Document Classification  
-5. Data Matching  
-6. Fraud Detection  
-7. Report Generation
-8. Verify via QR  
+DocuVerify AI follows a modular and scalable architecture designed for high-volume document processing.
+
+### 🔹 High-Level Architecture  
+Frontend (React + Tailwind)
+│
+▼
+Backend API (FastAPI / Django)
+│
+▼
+AI Processing Pipeline
+├── Image Preprocessing
+├── OCR Engine (Tesseract + EasyOCR)
+├── NLP Processing (SpaCy)
+├── Fraud Detection Model (PyTorch)
+│
+▼
+Verification Engine
+├── Data Matching
+├── Fuzzy Logic Validation
+├── Confidence Scoring
+│
+▼
+Output Layer
+├── Verification Report
+├── Flags & Alerts
+├── QR Code Generation
+
+
+---
+
+## 🔄 Data Flow  
+
+### Step-by-Step Flow  
+
+1. **User Uploads Documents**  
+   - Accepts PDFs 
+
+2. **Preprocessing Layer**  
+   - Enhances image quality  
+   - Removes noise and improves readability  
+
+3. **OCR & Text Extraction**  
+   - Multi-engine OCR extracts multilingual text  
+
+4. **Document Classification**  
+   - Identifies document type (certificate, ID, etc.)  
+
+5. **NLP Processing**  
+   - Extracts key entities (name, DOB, ID numbers)  
+
+6. **Fraud Detection Layer**  
+   - Uses ML model (PyTorch)  
+   - Detects inconsistencies and anomalies  
+
+7. **Data Matching Engine**  
+   - Compares extracted data with application input  
+   - Uses fuzzy matching for real-world variations  
+
+8. **Confidence Scoring System**  
+   - Assigns trust score  
+   - Routes cases (auto / review / reject)  
+
+9. **Final Output Generation**  
+   - Verification report  
+   - Flagged issues  
+   - QR-based verification  
+
+---
+
+## ⚡ Processing Strategy  
+
+- ⚡ **Parallel Processing** for documents  
+- 🎯 **Confidence-based routing** (Auto / Manual review)  
+- 📈 **Continuous learning system** (improves over time)  
+- ☁️ **Cloud-scalable architecture**  
+
+---
+
+## 🔐 Security & Reliability  
+
+- Secure document handling  
+- Scalable deployment  
+- Audit-ready verification logs  
 
 ---
 
