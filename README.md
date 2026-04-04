@@ -106,16 +106,20 @@ DocuVerify AI automates the entire document verification pipeline:
 
 ### Frontend  
 - React.js  
-- Tailwind CSS  
+- Tailwind CSS
+- Recharts
 
 ### Backend  
 - FastAPI / Flask  
 - REST APIs  
 
 ### AI/ML  
+- PyTorch
 - Tesseract OCR  
 - EasyOCR  
 - SpaCy (NLP)
+- Fraud Detection Model
+- Classification Model
 
 ### Deployment  
 - Vercel  
