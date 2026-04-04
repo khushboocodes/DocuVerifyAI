@@ -202,8 +202,6 @@ flowchart TD
 
 Follow these steps to run the project locally 👇  
 
----
-
 ### 🔧 Prerequisites  
 
 Install the following:
