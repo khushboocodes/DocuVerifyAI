@@ -82,7 +82,7 @@ DocuVerify AI follows a modular and scalable architecture designed for high-volu
 
 ```mermaid
 flowchart TD
-    A["Frontend - React & Tailwind"] --> B["Backend API - FastAPI / Django"]
+    A["Frontend - React & Tailwind"] --> B["Backend API - FastAPI / Flask"]
     B --> C["AI Processing Pipeline"]
 
     C --> D["Image Preprocessing"]
