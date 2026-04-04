@@ -10,6 +10,13 @@
 
 ---
 
+## ⚡ Quick Access  
+
+- 🌐 Live App: https://your-vercel-link.vercel.app  
+- 🎥 Demo Video: https://your-video-link.com
+
+---
+
 ## 📌 Overview  
 
 DocuVerify AI is an intelligent document verification system that automates large-scale recruitment workflows using AI.  
