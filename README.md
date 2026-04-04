@@ -221,7 +221,6 @@ Download and install from:
 After installation:  
 - Add Tesseract to system PATH  
 
----
 
 ### 📥 Step 1: Clone Repository  
 
