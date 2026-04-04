@@ -80,23 +80,23 @@ DocuVerify AI automates the entire document verification pipeline:
 ## 🧠 How It Works  
 
 1. Upload Documents  
-2. Preprocess & Enhance  
-3. Extract Text (OCR)  
-4. Classify Documents  
-5. Match Data  
-6. Detect Fraud  
-7. Generate Report  
+2. Preprocessing & Enhancement  
+3. OCR + Data Extraction  
+4. Document Classification  
+5. Data Matching  
+6. Fraud Detection  
+7. Report Generation
 8. Verify via QR  
 
 ---
 
 ## 📊 Impact  
 
-| Metric | Result |
+| Metric | Improvement |
 |------|--------|
 | ⏱ Time | 30 min → **3 sec** |
 | ⚡ Speed | **600x faster** |
-| 🎯 Accuracy | **99.7%** |
+| 🎯 Accuracy | **98%** |
 | 💰 Cost | ₹100 → ₹2–₹5 |
 | 🌍 Scale | Millions of users |
 
@@ -109,17 +109,16 @@ DocuVerify AI automates the entire document verification pipeline:
 - Tailwind CSS  
 
 ### Backend  
-- FastAPI / Django  
+- FastAPI / Flask  
 - REST APIs  
 
 ### AI/ML  
 - Tesseract OCR  
 - EasyOCR  
-- SpaCy  
+- SpaCy (NLP)
 
 ### Deployment  
 - Vercel  
-- AWS / GCP Ready  
 
 ---
 
@@ -153,11 +152,90 @@ After installation:
 ```bash
 git clone https://github.com/your-username/DocuVerifyAI.git
 cd DocuVerifyAI
+```
 
+### ⚙️ Backend Setup
 
-  ## Running the code
+```bash
+# Navigate to backend folder
+cd backend
 
-  Run `npm i` to install the dependencies.
+# Create virtual environment
+python -m venv venv
 
-  Run `npm run dev` to start the development server.
-  
+# Activate virtual environment
+
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run backend server
+uvicorn main:app --reload
+```
+
+### 💻 Frontend Setup
+
+```bash
+# Navigate to frontend folder
+cd frontend
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+---
+
+## 🚧 Challenges & Limitations  
+
+- Limited dataset for smaller institutions  
+- Lack of government verification APIs  
+- Handwritten documents have lower accuracy  
+- Adoption challenges in government workflows  
+
+---
+
+## 🔮 Future Scope  
+
+- Integration with DigiLocker and government APIs  
+- Improved dataset coverage across institutions  
+- Advanced fraud detection using deep learning  
+- Mobile app for on-field verification  
+- Blockchain-based verification records  
+
+---
+
+## 📌 Use Cases  
+
+- Government Recruitment Boards  
+- Universities & Colleges  
+- Public Sector Units (PSUs)  
+- Private Hiring Platforms  
+
+---
+
+## 🎯 Why This Project Stands Out  
+
+- Solves a **real-world, national-scale problem**  
+- Built specifically for **India**  
+- Combines **AI + scalability + usability**  
+- Reduces verification time from **months → seconds**  
+- Ready for **real-world deployment**  
+
+---
+ 
+## 🏁 Conclusion  
+
+DocuVerify AI transforms document verification from a slow, manual process into a fast, intelligent, and scalable system — enabling faster recruitment, reduced errors, and better decision-making.  
+
+---
+
+## ⭐ Support  
+
+If you like this project, give it a ⭐ on GitHub! 
