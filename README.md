@@ -81,30 +81,28 @@ DocuVerify AI automates the entire document verification pipeline:
 DocuVerify AI follows a modular and scalable architecture designed for high-volume document processing.
 
 ### 🔹 High-Level Architecture  
-Frontend (React + Tailwind)
-│
-▼
-Backend API (FastAPI / Django)
-│
-▼
-AI Processing Pipeline
-├── Image Preprocessing
-├── OCR Engine (Tesseract + EasyOCR)
-├── NLP Processing (SpaCy)
-├── Fraud Detection Model (PyTorch)
-│
-▼
-Verification Engine
-├── Data Matching
-├── Fuzzy Logic Validation
-├── Confidence Scoring
-│
-▼
-Output Layer
-├── Verification Report
-├── Flags & Alerts
-├── QR Code Generation
+```mermaid
+flowchart TD
+    A[Frontend (React + Tailwind)] --> B[Backend API (FastAPI / Django)]
+    B --> C[AI Processing Pipeline]
 
+    C --> D[Image Preprocessing]
+    C --> E[OCR Engine (Tesseract + EasyOCR)]
+    C --> F[NLP Processing (SpaCy)]
+    C --> G[Fraud Detection Model (PyTorch)]
+
+    G --> H[Verification Engine]
+
+    H --> I[Data Matching]
+    H --> J[Fuzzy Logic Validation]
+    H --> K[Confidence Scoring]
+
+    K --> L[Output Layer]
+
+    L --> M[Verification Report]
+    L --> N[Flags & Alerts]
+    L --> O[QR Code Generation]
+```
 
 ---
 
