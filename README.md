@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/AI-Enabled-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Accuracy-90%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Speed-600x%20Faster-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" />
 </p>
 
 ---
