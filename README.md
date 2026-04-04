@@ -81,6 +81,7 @@ DocuVerify AI automates the entire document verification pipeline:
 DocuVerify AI follows a modular and scalable architecture designed for high-volume document processing.
 
 ### 🔹 High-Level Architecture  
+
 ```mermaid
 flowchart TD
     A[Frontend (React + Tailwind)] --> B[Backend API (FastAPI / Django)]
