@@ -54,12 +54,26 @@ DocuVerify AI automates the entire document verification pipeline:
 
 ### 📂 Multi-Format Processing  
 - Supports PDFs, images, scans, and mobile photos  
-- 🌐 12+ Indian languages support  
-- 🧠 AI OCR (Tesseract + EasyOCR)  
-- 🔍 Fuzzy matching (handles name variations)  
-- ⚡ 600x faster processing  
-- 🎯 99.7% accuracy  
-- 🔐 QR-based secure verification  
+
+### 🧠 AI Data Extraction  
+- Tesseract + EasyOCR  
+- NLP-based entity extraction 
+
+### 🔍 Intelligent Matching  
+- Fuzzy matching  
+- Handles spelling + transliteration differences
+
+### 🎯 Fraud Detection  
+- Cross-document validation  
+- Metadata analysis
+
+### ⚡ Confidence-Based Decisions  
+- 80% automated approvals  
+- Flags only critical cases  
+
+### 🔐 QR Code Verification  
+- Secure, instant verification  
+- Shareable verification proof 
 
 ---
 
