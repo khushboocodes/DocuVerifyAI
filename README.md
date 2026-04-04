@@ -33,7 +33,7 @@ Large-scale recruitment systems process **thousands of applications**, each with
 - 500+ recruitment bodies  
 - 10+ million applicants annually  
 
-👉 Result: Inefficiency, delays, and poor applicant experience  
+👉 Result: Delayed hiring, inefficiency, and poor candidate experience  
 
 ---
 
